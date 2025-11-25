@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type ="text/css">
+        .flex-container
+        {
+            background-color: brown;
+          display: flex;
+          flex-direction: row; 
+          /* default direction:row, */
+          /* align-items: flex-start; */
+           /* align-items: flex-end;  */
+          /* justify-content: center; */
+          /* justify-content: space-between; */
+          /* justify-content: space-around; */
+        /* justify-cntent:start */
+          justify-content: end;
+          /* justify-content: space-evenly; */
+        }
+        #child1                                 
+        {
+            background-color: aqua;
+        }
+          #child2  
+        {
+            background-color:orchid;
+        }
+          #child3  
+        {
+            background-color: yellowgreen;
+            height:200px;
+        }
+          #child4  
+        {
+            background-color: red;
+        }
+          #child5  
+        {
+            background-color:palevioletred;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+        <div id ="child1">html</div>
+        <div id ="child2">css</div>
+        <div id ="child3">bootstrap</div>
+        <div id ="child4">javascript</div>
+        <div id ="child5">react js</div>
+
+    </div>
+<hr>
+</body>
+</html>
